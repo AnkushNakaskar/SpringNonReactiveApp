@@ -16,3 +16,7 @@
             
         * You can configure the  default the number of thread (Event loop thread),Default to number of processor.
         
+    * This project with the co-ordination with SpringReactiveApp,Says How memory and CPU is used efficiently
+        * You can see how remote API call are invoke and release in tomcat thread .
+            * sleep API is used in  SpringReactiveApp,We have many use cases like this in day to day life.For Example Page builder in CAL(For my refernece).
+            * Best way to check the Reactive APP ,Monitor the logs from both the server(SpringReactive ,SpringNonReactive) and see the thread per request.
